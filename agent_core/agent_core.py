@@ -1,4 +1,4 @@
-﻿# agent_core/agent_core.py
+# agent_core/agent_core.py
 import time
 import os
 import yaml
@@ -6,9 +6,11 @@ from collector.collector import Collector
 from executor.executor import Executor
 from strategy.ma_rsi_strategy import MAStrategy
 
+
 def load_config(path="config.yaml"):
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
+
 
 def main():
     cfg = load_config(os.environ.get("CONFIG_PATH", "config.yaml"))
@@ -30,6 +32,6 @@ def main():
     except KeyboardInterrupt:
         print("Agent stopped by user")
 
+
 if __name__ == "__main__":
     main()
-
