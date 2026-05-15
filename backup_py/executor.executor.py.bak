@@ -1,4 +1,4 @@
-﻿# executor/executor.py
+# executor/executor.py
 import os
 import json
 import datetime
