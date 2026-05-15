@@ -1,4 +1,4 @@
-﻿﻿agent:
+﻿agent:
   loop_interval_seconds: 10
   mode: paper
   max_daily_loss: 0.05

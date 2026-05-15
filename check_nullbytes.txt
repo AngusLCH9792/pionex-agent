@@ -1,4 +1,4 @@
-﻿C:\Users\User\pionex-agent\.venv\Lib\site-packages\isympy.py : OK
+C:\Users\User\pionex-agent\.venv\Lib\site-packages\isympy.py : OK
 C:\Users\User\pionex-agent\.venv\Lib\site-packages\py.py : OK
 C:\Users\User\pionex-agent\.venv\Lib\site-packages\pylab.py : OK
 C:\Users\User\pionex-agent\.venv\Lib\site-packages\six.py : OK
