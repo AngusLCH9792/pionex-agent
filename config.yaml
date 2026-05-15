@@ -1,0 +1,10 @@
+﻿﻿agent:
+  loop_interval_seconds: 10
+  mode: paper
+  max_daily_loss: 0.05
+pionex:
+  rest_base_url: "https://api.pionex.com"
+data:
+  db_url: "sqlite:///data/agent.db"
+logging:
+  level: INFO
